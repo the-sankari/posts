@@ -1,8 +1,71 @@
-# React + Vite
+# React Post Update
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web application fetches some posts from db.json file through server api, dislays data in card and updates the publicaiton status by toggle button.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![preview](./src/assets/posts.png)
+
+## Features
+
+- Fetching data from server api
+- Displaying data in card
+- Updating data by toggle button
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Node.js
+- npm
+- git
+
+### Setup
+
+- Clone the repository
+
+```bash
+git clone https://github.com/the-sankari/posts.git
+```
+
+```bash
+cd post
+```
+
+- Install dependencies
+
+```bash
+npm install
+```
+
+- Start the applicaiton
+
+```bash
+npm run dev
+```
+
+- open another terminal
+- Start the server
+
+```bash
+npm run server
+```
+
+- Open `http://localhost:3000/posts/` in the browser the api should be viewed
+- Open `http://localhost:5173/` in the browser the application should be viewed
+
+## Tech Stack
+
+- React
+- Bootstrap
+- Axios
+
+## Asigned by
+
+- [margittennosaar](https://github.com/margittennosaar)
+
+## Author
+
+- [kajolsutradhar](https://github.com/the-sankari)
