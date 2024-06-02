@@ -2,6 +2,12 @@
 
 This web application fetches some posts from db.json file through server api, dislays data in card and updates the publicaiton status by toggle button.
 
+## User Story
++ As a user, I want to toggle the published status between true and false, so I can easily see which posts have been published.
++ As a developer, I want to save these changes to the db.json file, so the updates persist even after refreshing the page.
+
+[&copy;margittennosaar](https://github.com/margittennosaar)
+
 ## Preview
 
 ![preview](./src/assets/posts.png)
