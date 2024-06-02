@@ -31,7 +31,7 @@ git clone https://github.com/the-sankari/posts.git
 ```
 
 ```bash
-cd post
+cd posts
 ```
 
 - Install dependencies
